@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    background-color: rgb(241, 68, 25);
+    background-color: orange;
     padding: 10px 0;
 }
 
@@ -27,7 +27,7 @@ body {
 
 @media (max-width: 800px) {
     .header li {
-        margin: 0 20px; /* Espaçamento menor em telas menores */
+        margin: 0 20px;
     }
 }
 
@@ -38,7 +38,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row; /* Direção padrão - horizontal */
+    flex-direction: row;
 }
 
 .image-container {
@@ -56,17 +56,17 @@ body {
     max-width: 400px;
 }
 
-.input-group {
+.input {
     margin-bottom: 20px;
     text-align: left;
 }
 
-.input-group label {
+.input label {
     display: block;
     margin-bottom: 5px;
 }
 
-.input-group input {
+.input input {
     width: 100%;
     padding: 10px;
     border: 2px solid rgb(241, 68, 25);
@@ -74,19 +74,19 @@ body {
 
 button {
     background-color: white;
-    color: rgb(241, 68, 25);
-    padding: 10px 20px;
-    border: 1px solid rgb(241, 68, 25);
+    color: orange;
+    padding: 8px 20px;
+    border: 2px solid orange;
     cursor: pointer;
 }
 
 @media (max-width: 480px) {
     .container {
-        flex-direction: column; /* Altera a direção para vertical */
-        align-items: center; /* Centraliza verticalmente */
+        flex-direction: column; 
+        align-items: center;
     }
     .image-container{
-        order: 2; /* Altera a ordem da imagem (vai para baixo) */
+        order: 2;
     }
     .login-box {
         max-width: 100%;
